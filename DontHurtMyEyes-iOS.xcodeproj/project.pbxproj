@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		7E5E1CA81BB45376008812B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CA71BB45376008812B1 /* main.m */; };
-		7E5E1CAB1BB45376008812B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CAA1BB45376008812B1 /* AppDelegate.m */; };
-		7E5E1CAE1BB45376008812B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CAD1BB45376008812B1 /* ViewController.m */; };
-		7E5E1CB11BB45376008812B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E1CAF1BB45376008812B1 /* Main.storyboard */; };
+		7E5E1CAB1BB45376008812B1 /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CAA1BB45376008812B1 /* DHAppDelegate.m */; };
 		7E5E1CB31BB45376008812B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E1CB21BB45376008812B1 /* Assets.xcassets */; };
 		7E5E1CB61BB45376008812B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E1CB41BB45376008812B1 /* LaunchScreen.storyboard */; };
+		7E5E1CC31BB4669F008812B1 /* DHLightMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CC21BB4669F008812B1 /* DHLightMonitor.m */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CC61BB466D5008812B1 /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CC51BB466D5008812B1 /* DHViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CCD1BB46A00008812B1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5E1CCC1BB46A00008812B1 /* ImageIO.framework */; };
+		7E5E1CD11BB46A34008812B1 /* DHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CCF1BB46A34008812B1 /* DHHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CD21BB46A34008812B1 /* DHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E1CD01BB46A34008812B1 /* DHHomeViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CD61BB46A77008812B1 /* DHReadoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CD41BB46A77008812B1 /* DHReadoutViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CD71BB46A77008812B1 /* DHReadoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E1CD51BB46A77008812B1 /* DHReadoutViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CDB1BB46B51008812B1 /* DHLightAdaptingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E1CD91BB46B51008812B1 /* DHLightAdaptingViewController.m */; settings = {ASSET_TAGS = (); }; };
+		7E5E1CDC1BB46B51008812B1 /* DHLightAdaptingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E1CDA1BB46B51008812B1 /* DHLightAdaptingViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E5E1CA31BB45376008812B1 /* DontHurtMyEyes-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DontHurtMyEyes-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5E1CA71BB45376008812B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7E5E1CA91BB45376008812B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7E5E1CAA1BB45376008812B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7E5E1CAC1BB45376008812B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7E5E1CAD1BB45376008812B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7E5E1CB01BB45376008812B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E5E1CA91BB45376008812B1 /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		7E5E1CAA1BB45376008812B1 /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
 		7E5E1CB21BB45376008812B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5E1CB51BB45376008812B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E5E1CB71BB45376008812B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5E1CC11BB4669F008812B1 /* DHLightMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLightMonitor.h; sourceTree = "<group>"; };
+		7E5E1CC21BB4669F008812B1 /* DHLightMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLightMonitor.m; sourceTree = "<group>"; };
+		7E5E1CC41BB466D5008812B1 /* DHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		7E5E1CC51BB466D5008812B1 /* DHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		7E5E1CCC1BB46A00008812B1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		7E5E1CCE1BB46A34008812B1 /* DHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHHomeViewController.h; sourceTree = "<group>"; };
+		7E5E1CCF1BB46A34008812B1 /* DHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHHomeViewController.m; sourceTree = "<group>"; };
+		7E5E1CD01BB46A34008812B1 /* DHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHHomeViewController.xib; sourceTree = "<group>"; };
+		7E5E1CD31BB46A77008812B1 /* DHReadoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHReadoutViewController.h; sourceTree = "<group>"; };
+		7E5E1CD41BB46A77008812B1 /* DHReadoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHReadoutViewController.m; sourceTree = "<group>"; };
+		7E5E1CD51BB46A77008812B1 /* DHReadoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHReadoutViewController.xib; sourceTree = "<group>"; };
+		7E5E1CD81BB46B51008812B1 /* DHLightAdaptingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLightAdaptingViewController.h; sourceTree = "<group>"; };
+		7E5E1CD91BB46B51008812B1 /* DHLightAdaptingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLightAdaptingViewController.m; sourceTree = "<group>"; };
+		7E5E1CDA1BB46B51008812B1 /* DHLightAdaptingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DHLightAdaptingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5E1CCD1BB46A00008812B1 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,14 +77,15 @@
 		7E5E1CA51BB45376008812B1 /* DontHurtMyEyes-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7E5E1CA91BB45376008812B1 /* AppDelegate.h */,
-				7E5E1CAA1BB45376008812B1 /* AppDelegate.m */,
-				7E5E1CAC1BB45376008812B1 /* ViewController.h */,
-				7E5E1CAD1BB45376008812B1 /* ViewController.m */,
-				7E5E1CAF1BB45376008812B1 /* Main.storyboard */,
-				7E5E1CB21BB45376008812B1 /* Assets.xcassets */,
-				7E5E1CB41BB45376008812B1 /* LaunchScreen.storyboard */,
-				7E5E1CB71BB45376008812B1 /* Info.plist */,
+				7E5E1CA91BB45376008812B1 /* DHAppDelegate.h */,
+				7E5E1CAA1BB45376008812B1 /* DHAppDelegate.m */,
+				7E5E1CC41BB466D5008812B1 /* DHViewController.h */,
+				7E5E1CC51BB466D5008812B1 /* DHViewController.m */,
+				7E5E1CDD1BB46B6E008812B1 /* View Controllers */,
+				7E5E1CC11BB4669F008812B1 /* DHLightMonitor.h */,
+				7E5E1CC21BB4669F008812B1 /* DHLightMonitor.m */,
+				7E5E1CC01BB465B5008812B1 /* Frameworks */,
+				7E5E1CBD1BB45721008812B1 /* Assets */,
 				7E5E1CA61BB45376008812B1 /* Supporting Files */,
 			);
 			path = "DontHurtMyEyes-iOS";
@@ -74,9 +94,43 @@
 		7E5E1CA61BB45376008812B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7E5E1CB71BB45376008812B1 /* Info.plist */,
 				7E5E1CA71BB45376008812B1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E5E1CBD1BB45721008812B1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7E5E1CB21BB45376008812B1 /* Assets.xcassets */,
+				7E5E1CB41BB45376008812B1 /* LaunchScreen.storyboard */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		7E5E1CC01BB465B5008812B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5E1CCC1BB46A00008812B1 /* ImageIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E5E1CDD1BB46B6E008812B1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E5E1CCE1BB46A34008812B1 /* DHHomeViewController.h */,
+				7E5E1CCF1BB46A34008812B1 /* DHHomeViewController.m */,
+				7E5E1CD01BB46A34008812B1 /* DHHomeViewController.xib */,
+				7E5E1CD81BB46B51008812B1 /* DHLightAdaptingViewController.h */,
+				7E5E1CD91BB46B51008812B1 /* DHLightAdaptingViewController.m */,
+				7E5E1CDA1BB46B51008812B1 /* DHLightAdaptingViewController.xib */,
+				7E5E1CD31BB46A77008812B1 /* DHReadoutViewController.h */,
+				7E5E1CD41BB46A77008812B1 /* DHReadoutViewController.m */,
+				7E5E1CD51BB46A77008812B1 /* DHReadoutViewController.xib */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +159,7 @@
 		7E5E1C9B1BB45376008812B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DH;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Chris Lemke";
 				TargetAttributes = {
@@ -138,7 +193,9 @@
 			files = (
 				7E5E1CB61BB45376008812B1 /* LaunchScreen.storyboard in Resources */,
 				7E5E1CB31BB45376008812B1 /* Assets.xcassets in Resources */,
-				7E5E1CB11BB45376008812B1 /* Main.storyboard in Resources */,
+				7E5E1CD21BB46A34008812B1 /* DHHomeViewController.xib in Resources */,
+				7E5E1CDC1BB46B51008812B1 /* DHLightAdaptingViewController.xib in Resources */,
+				7E5E1CD71BB46A77008812B1 /* DHReadoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +206,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E5E1CAE1BB45376008812B1 /* ViewController.m in Sources */,
-				7E5E1CAB1BB45376008812B1 /* AppDelegate.m in Sources */,
+				7E5E1CC61BB466D5008812B1 /* DHViewController.m in Sources */,
+				7E5E1CAB1BB45376008812B1 /* DHAppDelegate.m in Sources */,
 				7E5E1CA81BB45376008812B1 /* main.m in Sources */,
+				7E5E1CD11BB46A34008812B1 /* DHHomeViewController.m in Sources */,
+				7E5E1CC31BB4669F008812B1 /* DHLightMonitor.m in Sources */,
+				7E5E1CD61BB46A77008812B1 /* DHReadoutViewController.m in Sources */,
+				7E5E1CDB1BB46B51008812B1 /* DHLightAdaptingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E5E1CAF1BB45376008812B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E5E1CB01BB45376008812B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E5E1CB41BB45376008812B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

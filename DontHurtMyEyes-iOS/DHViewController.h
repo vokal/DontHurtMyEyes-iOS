@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DHViewController.h
 //  DontHurtMyEyes-iOS
 //
 //  Created by Chris Lemke on 9/24/15.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface DHViewController : UIViewController
 
 @end
-

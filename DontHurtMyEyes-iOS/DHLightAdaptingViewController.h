@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  DHLightAdaptingViewController.h
 //  DontHurtMyEyes-iOS
 //
 //  Created by Chris Lemke on 9/24/15.
 //  Copyright © 2015 Chris Lemke. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "DHViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface DHLightAdaptingViewController : DHViewController
 
 @end
-
